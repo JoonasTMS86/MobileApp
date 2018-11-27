@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joonas's Mobile Application</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+<script src="jquery-2.1.1.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<script src="MobileApp.js"></script>
+
+<style>
+
+ul
+{
+list-style:square inside url('Face.png');
+}
+</style>
+
+
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" data-position="inline">
+<h1>Joonas's Mobile Application</h1>
+</div>
+<div role="main" class="ui-content">
+
+<p><h1>Welcome to Joonas's Site</h1></p>
+<p>Hi! I'm Joonas Lindberg and this is my site. Have fun exploring its contents.</p>
+
+<br></br>
+<div id="temps">
+</div>
+
+
+<ul data-role="listview" data-inset="true">
+<li><a href="MobileApp2.html" data-transition="flip">
+<img src="minipic.jpg" />More about me</a></li>
+</ul>
+
+
+
+<p>I've done stuff with the following languages:</p>
+<div>
+<ul>
+	<li>C</li>
+	<li>C++</li>
+	<li>Java</li>
+	<li>Assembly</li>
+</ul>
+</div>
+<p>For webpages, I've used:</p>
+<div>
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>PHP</li>
+	<li>JavaScript</li>
+</ul>
+</div>
+
+
+
+<br></br>
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed="false">
+<h4>Me in Brief</h4>
+<p>
+<p>I'm Joonas, a coder at heart. Making websites is occasionally fun, but I'm more into application programming.</p>
+</p>
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="b">
+<h4>Contact Me</h4>
+<p>
+<p>If you wish to reach me, call me or mail me:</p>
+<p>Tel. 040 849 2994</p>
+<p>joonas.lindberg2@metropolia.fi</p>
+</p>
+</div>
+
+
+
+</div>
+
+<h1>Below: Weather info from Public Weather Service</h1>
+<p id="weather"></p>
+
+
+<h1>Souvenirs</h1>
+
+<h2>Please click an item on the list below to add it to your basket:</h2>
+
+		<div id="images">
+			<img id="item1" src="Facebigger.png" alt="Smiling face" />
+			<img id="item2" src="minitoys.jpg" alt="Mario and Sonic" />
+			<img id="item3" src="cat.jpg" alt="Cat" />
+		</div>
+		<p id="sel"><b>Souvenirs selected:</b></p>
+		<div>
+			<ul id="stuff">
+			</ul>
+		</div>
+
+
+
+<p id="date">This page has been visited </p>
+
+<div data-role="footer" data-position="fixed">
+<div class="ui-grid-b" id="bottomline">
+
+Website (C) 2016 Joonas Lindberg. All Rights Reserved.
+
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
